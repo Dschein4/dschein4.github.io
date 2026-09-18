@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weast Coast Games</title>
+<meta name="description" content="Weast Coast Games is an independent mobile game studio, and the developer of Bubble Barrage for Android.">
+<style>
+  :root {
+    --bg: #f5f9fb;
+    --card: #ffffff;
+    --ink: #0f2230;
+    --muted: #5a7183;
+    --accent: #0b7fab;
+    --line: #dbe6ed;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b1620;
+      --card: #12212e;
+      --ink: #e8f1f6;
+      --muted: #9db3c2;
+      --accent: #4cc3ea;
+      --line: #213543;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 56px 0 40px; }
+  h1 { font-size: 1.9rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); margin: 0 0 40px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  h2 { font-size: 1.15rem; margin: 0 0 10px; }
+  p { margin: 0 0 16px; }
+  a { color: var(--accent); }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  footer {
+    color: var(--muted);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--line);
+    padding-top: 20px;
+    margin-top: 32px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Weast Coast Games</h1>
+    <p class="tagline">An independent mobile game studio.</p>
+
+    <div class="card">
+      <h2>Bubble Barrage</h2>
+      <p>A zen idle bubble popper for Android. Your turret pops, coins pile up, and a loyal little drone vacuums your fortune home. No fail state, no forced ads, no energy timers.</p>
+      <p><a class="btn" href="https://play.google.com/store/apps/details?id=com.weastcoastgames.bubblebarrage">Get it on Google Play</a></p>
+    </div>
+
+    <div class="card">
+      <h2>Support and legal</h2>
+      <ul>
+        <li>Contact: <a href="mailto:contact.weastcoastgames@gmail.com">contact.weastcoastgames@gmail.com</a></li>
+        <li><a href="https://dschein4.github.io/bubble-barrage-privacy/">Bubble Barrage privacy policy</a></li>
+        <li><a href="https://dschein4.github.io/app-ads.txt">app-ads.txt</a></li>
+      </ul>
+    </div>
+
+    <footer>&copy; 2026 Weast Coast Games</footer>
+  </div>
+</body>
+</html>
